@@ -1,0 +1,2 @@
+import React from 'react'
+export default function Footer(){return <footer className="bg-white border-t mt-12"><div className="max-w-6xl mx-auto px-6 py-8 flex flex-col md:flex-row gap-4 justify-between text-sm text-gray-600"><div>© {new Date().getFullYear()} Swiss Home Design Sàrl — Rue des Couviers 20, 2074 Marin-Epagnier</div><div className="flex gap-4"><a href="/fr/mentions-legales">Mentions légales</a><a href="/de/impressum">Impressum</a></div></div></footer>}

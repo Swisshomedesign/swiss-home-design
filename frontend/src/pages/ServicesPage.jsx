@@ -1,0 +1,2 @@
+import React from 'react'
+export default function ServicesPage({lang='fr'}){const names=lang==='fr'?['Construction de maisons','Architecture & plans','Rénovation & agrandissement']:['Hausbau','Architektur & Pläne','Renovation & Ausbau'];return <section className="bg-white py-16"><div className="max-w-6xl mx-auto px-6"><h2 className="text-3xl font-semibold mb-6">{lang==='fr'?'Nos services':'Unsere Leistungen'}</h2><div className="grid md:grid-cols-3 gap-6">{names.map(name=><div key={name} className="p-6 border rounded-lg">{name}</div>)}</div></div></section>}

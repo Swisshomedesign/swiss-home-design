@@ -1,0 +1,1 @@
+export default {name:'accueil',title:'Accueil',type:'document',fields:[{name:'titre_fr',title:'Titre FR',type:'string'},{name:'titre_de',title:'Titre DE',type:'string'},{name:'slogan_fr',title:'Slogan FR',type:'text'},{name:'slogan_de',title:'Slogan DE',type:'text'},{name:'heroImage',title:'Image principale',type:'image'}]}

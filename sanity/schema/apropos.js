@@ -1,0 +1,1 @@
+export default {name:'apropos',title:'À propos',type:'document',fields:[{name:'contenu_fr',title:'Contenu FR',type:'text'},{name:'contenu_de',title:'Contenu DE',type:'text'},{name:'image',title:'Image',type:'image'}]}

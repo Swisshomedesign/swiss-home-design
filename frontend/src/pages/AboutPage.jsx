@@ -1,0 +1,2 @@
+import React from 'react'
+export default function AboutPage({lang='fr'}){return <section className="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-8 items-center"><div><h2 className="text-3xl font-semibold">{lang==='fr'?'À propos':'Über uns'}</h2><p className="mt-4 text-gray-700">{lang==='fr'?'Swiss Home Design Sàrl est spécialisée dans la construction de maisons design, avec une approche durable et une attention aux détails.':'Swiss Home Design Sàrl ist spezialisiert auf den Bau von Designhäusern.'}</p></div><div className="rounded-xl bg-gray-200 h-64"/></section>}

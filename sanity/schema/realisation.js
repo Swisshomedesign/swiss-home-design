@@ -1,0 +1,1 @@
+export default {name:'realisation',title:'Réalisation',type:'document',fields:[{name:'title_fr',title:'Titre FR',type:'string'},{name:'title_de',title:'Titre DE',type:'string'},{name:'images',title:'Images',type:'array',of:[{type:'image'}]},{name:'date',title:'Date',type:'datetime'}]}
