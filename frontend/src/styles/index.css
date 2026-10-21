@@ -92,3 +92,31 @@ body {margin:0}
 .shd-legal p{color:#68756c;line-height:1.9}
 .shd-legal a{color:#2b4335}
 @media(max-width:800px){.shd-page-hero{padding:85px 25px 65px}.shd-split{grid-template-columns:1fr}.shd-editorial-image{min-height:380px}.shd-split-text{padding:70px 26px}.shd-values{padding:75px 25px}.shd-values-grid{grid-template-columns:1fr;gap:25px}.shd-service-list{margin:55px auto 85px;padding:0 25px}.shd-service-list article{grid-template-columns:45px 1fr;gap:15px}.shd-service-list article p{grid-column:2}.shd-service-list article>span:last-child{display:none}.shd-project-layout{grid-template-columns:1fr;padding:0 24px}.shd-project-image{height:330px}.shd-contact-layout{grid-template-columns:1fr;gap:40px;padding:0 25px 85px}.shd-contact-panel{padding:35px 25px}.shd-legal{grid-template-columns:1fr;padding:0 25px 90px;gap:35px}}
+
+/* Brand photos from the client, stored under frontend/public/images */
+.shd-hero-image {background-image:url('/images/inspiration-haus-beige.jpg'),url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=2200&q=85')}
+.shd-image-band-photo {background-image:url('/images/inspiration-haus-abend.jpg'),url('https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=2000&q=85')}
+.shd-about-photo {background-image:url('/images/projekt-baustellen-collage.jpg'),url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=85')}
+.shd-service-photo {background-image:url('/images/projekt-dachmontage.jpg'),url('https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=85')}
+.shd-site-header{background:#fdfdfb;border-bottom:1px solid #e5e8e2}
+.shd-header-inner{max-width:1250px;margin:auto;padding:12px 30px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.shd-logo-link{display:flex;align-items:center;gap:12px;text-decoration:none;color:#27392e;font-family:Manrope,sans-serif;font-size:13px;font-weight:800;letter-spacing:.12em;line-height:1.2;flex-shrink:0}
+.shd-header-logo{width:74px;height:60px;object-fit:contain}
+.shd-site-header nav{display:flex;flex-wrap:wrap;justify-content:center;gap:27px}
+.shd-site-header nav a{font-size:12px;font-weight:600;color:#45534a;text-decoration:none}
+.shd-site-header nav a:hover{text-decoration:underline}
+.shd-lang{display:flex;gap:7px;font-size:11px;flex-shrink:0}.shd-lang a{color:#35453a;text-decoration:none}
+.shd-work-grid{max-width:1200px;margin:0 auto 80px;padding:0 30px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:54px 28px}
+.shd-work-card:first-child{grid-column:span 2}
+.shd-work-frame{height:380px;background:#e7eae5;overflow:hidden}
+.shd-work-card:first-child .shd-work-frame{height:530px}
+.shd-work-frame img{width:100%;height:100%;object-fit:cover;display:block}
+.shd-work-card>span{display:block;font-size:11px;letter-spacing:.14em;color:#829187;margin-top:18px}
+.shd-work-card h2{font-family:Manrope,sans-serif;font-size:24px;font-weight:500;letter-spacing:-.03em;margin:10px 0}
+.shd-inspo-section{padding:100px max(30px,calc((100vw - 1140px)/2));background:#edf0e9}
+.shd-inspo-section h2{font-family:Manrope,sans-serif;font-weight:500;letter-spacing:-.04em;font-size:clamp(30px,4vw,52px);margin:20px 0}
+.shd-inspo-section>p{max-width:690px;line-height:1.8;color:#69756d;margin-bottom:40px}
+.shd-inspo-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px}
+.shd-inspo-grid img{width:100%;height:360px;object-fit:cover;background:#d5dbd2}
+@media(max-width:850px){.shd-header-inner{padding:13px 20px;flex-wrap:wrap}.shd-site-header nav{order:3;width:100%;justify-content:space-between;gap:12px}.shd-site-header nav a{font-size:11px}.shd-header-logo{height:45px;width:60px}}
+@media(max-width:700px){.shd-work-grid{grid-template-columns:1fr;padding:0 20px}.shd-work-card:first-child{grid-column:auto}.shd-work-frame,.shd-work-card:first-child .shd-work-frame{height:330px}.shd-inspo-grid{grid-template-columns:1fr}.shd-inspo-grid img{height:290px}.shd-inspo-section{padding:65px 24px}}
