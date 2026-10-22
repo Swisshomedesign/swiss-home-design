@@ -229,3 +229,23 @@ body {margin:0}
  .shd-lightbox button{width:34px;height:42px;font-size:24px}
  .shd-lightbox-close{right:12px;top:12px}
 }
+
+/* Contact form — mailto fallback until a delivery service is connected */
+.shd-contact-layout-form{grid-template-columns:minmax(0,0.9fr) minmax(0,1.1fr);gap:80px;align-items:start}
+.shd-contact-info h2{margin-bottom:20px}
+.shd-contact-lead{color:#69776c;line-height:1.9;font-size:16px;margin:0 0 35px}
+.shd-form-panel{background:#e9eee7;padding:48px}
+.shd-form-panel h2{font-size:clamp(30px,3vw,42px);margin:18px 0 22px}
+.shd-form-panel>p{margin:0 0 30px;color:#617166;line-height:1.75}
+.shd-form-fields{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.shd-form-fields label{display:flex;flex-direction:column;gap:9px;font-size:12px;font-weight:700;color:#344b3a;letter-spacing:.02em}
+.shd-form-fields .shd-field-wide{grid-column:1/-1}
+.shd-form-fields input,.shd-form-fields textarea,.shd-form-fields select{width:100%;min-width:0;border:1px solid #c9d3c8;background:#fff;border-radius:0;padding:15px 14px;font:400 14px/1.5 'DM Sans',sans-serif;color:#243529}
+.shd-form-fields textarea{resize:vertical}
+.shd-form-fields input:focus,.shd-form-fields select:focus,.shd-form-fields textarea:focus{outline:2px solid #688c75;outline-offset:2px}
+.shd-consent{display:flex;align-items:flex-start;gap:12px;font-size:12px;color:#546458;line-height:1.6;margin:23px 0}
+.shd-consent input{margin-top:4px;accent-color:#284531;flex-shrink:0}
+.shd-form-panel .shd-button{border:0;cursor:pointer}
+.shd-form-notice{display:block;font-size:11px;line-height:1.65;color:#657268;margin-top:16px}
+@media(max-width:900px){.shd-contact-layout-form{grid-template-columns:1fr;gap:45px}}
+@media(max-width:550px){.shd-form-panel{padding:30px 22px}.shd-form-fields{grid-template-columns:1fr}.shd-form-fields .shd-field-wide{grid-column:auto}}
