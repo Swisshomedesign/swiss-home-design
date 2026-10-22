@@ -145,3 +145,49 @@ body {margin:0}
  .shd-site-header .shd-nav.shd-nav-open{display:flex}
  .shd-site-header .shd-nav-link{font-size:15px;padding:15px 6px;border-bottom:1px solid #e4e9e3}
 }
+
+
+/* Home page visual refinements — keep existing editorial direction */
+.shd-hero{height:min(830px,88svh);min-height:630px}
+.shd-hero-image{background-position:center 54%;transform:scale(1.005)}
+.shd-hero-shade{background:linear-gradient(90deg,rgba(13,25,21,.69) 0%,rgba(13,25,21,.38) 48%,rgba(13,25,21,.1) 100%),linear-gradient(0deg,rgba(12,24,20,.31),transparent 35%)}
+.shd-hero-content{width:min(1140px,calc(100% - 88px));padding-top:0}
+.shd-hero h1{font-size:clamp(48px,5.8vw,86px);line-height:1.12;max-width:780px;margin:25px 0 20px;letter-spacing:-.052em;text-wrap:balance}
+.shd-hero p{font-size:clamp(16px,1.4vw,18px);line-height:1.8;max-width:525px;margin:0}
+.shd-hero .shd-actions{margin-top:34px}
+.shd-hero-index{left:max(44px,calc((100vw - 1140px)/2))}
+.shd-intro-section{padding-top:112px;padding-bottom:112px;gap:70px}
+.shd-intro-right{padding-top:26px}
+.shd-intro-right p{font-size:18px;line-height:1.85}
+.shd-image-band{height:440px}
+.shd-image-band-photo{background-position:center 52%}
+.shd-services{padding-top:110px;padding-bottom:120px}
+.shd-services h2{margin-bottom:44px}
+.shd-service-card{min-height:255px;padding:32px}
+.shd-service-card h3{margin-top:42px}
+.shd-contact-cta{padding-top:108px;padding-bottom:110px}
+@media(max-width:750px){
+ .shd-hero{height:auto;min-height:620px;min-height:calc(85svh - 55px);max-height:none}
+ .shd-hero-image{background-position:59% center}
+ .shd-hero-shade{background:linear-gradient(90deg,rgba(12,25,21,.73),rgba(12,25,21,.28)),linear-gradient(0deg,rgba(12,25,21,.43),transparent 50%)}
+ .shd-hero-content{width:calc(100% - 44px);padding:105px 0 115px}
+ .shd-hero h1{font-size:clamp(39px,10.6vw,58px);line-height:1.14;max-width:570px;margin:18px 0 20px}
+ .shd-hero p{font-size:16px;line-height:1.75;max-width:380px}
+ .shd-hero .shd-actions{margin-top:30px;gap:20px}
+ .shd-hero-index{left:22px;bottom:24px;letter-spacing:.12em}
+ .shd-intro-section{padding:80px 24px;gap:12px}
+ .shd-intro-right{padding-top:0}
+ .shd-intro-right p{font-size:16px;line-height:1.85}
+ .shd-image-band{height:320px}
+ .shd-image-band-photo{background-position:55% center}
+ .shd-services{padding:80px 24px 90px}
+ .shd-services h2{margin-bottom:35px}
+ .shd-service-card{min-height:220px;padding:28px}
+ .shd-contact-cta{padding:82px 24px}
+}
+@media(max-width:390px){
+ .shd-hero-content{padding-top:78px;padding-bottom:110px}
+ .shd-hero h1{font-size:38px}
+ .shd-actions{align-items:flex-start}
+ .shd-button{padding:16px 17px;gap:25px}
+}
