@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 const content = {
   fr: {
     eyebrow: 'ARCHITECTURE • HABITAT • DESIGN',
-    title: 'Construction de maisons et rénovation à Neuchâtel.',
-    intro: 'Swiss Home Design Sàrl, à Marin-Epagnier, vous accompagne dans vos projets de conception, de construction de maisons et de rénovation dans la région de Neuchâtel.',
+    title: 'Conception et construction de maisons sur mesure.',
+    intro: 'Swiss Home Design Sàrl, basée à Marin-Epagnier, présente son approche de la conception et de la construction de maisons en Suisse, notamment dans les régions de Neuchâtel et de Berne.',
     primary: 'Découvrir nos services', secondary: 'Parlons de votre projet',
     aboutLabel: 'NOTRE PHILOSOPHIE', aboutTitle: 'Un lieu à votre image.',
     about: 'Chaque projet commence par une idée et une conversation. Nous croyons aux espaces lumineux, aux lignes épurées et aux détails qui font toute la différence.',
@@ -17,8 +17,8 @@ const content = {
   },
   de: {
     eyebrow: 'ARCHITEKTUR • WOHNEN • DESIGN',
-    title: 'Hausbau und Renovation in der Region Neuenburg.',
-    intro: 'Swiss Home Design Sàrl in Marin-Epagnier begleitet Projekte rund um Planung, Hausbau und Renovation in der Region Neuenburg.',
+    title: 'Individueller Hausbau und durchdachte Planung.',
+    intro: 'Swiss Home Design Sàrl mit Sitz in Marin-Epagnier steht für individuelle Hausplanung und Hausbau in der Schweiz, unter anderem in den Regionen Neuenburg und Bern.',
     primary: 'Unsere Leistungen', secondary: 'Projekt besprechen',
     aboutLabel: 'UNSERE PHILOSOPHIE', aboutTitle: 'Ein Ort, der zu Ihnen passt.',
     about: 'Jedes Projekt beginnt mit einer Idee und einem Gespräch. Wir glauben an lichtdurchflutete Räume, klare Linien und Details, die den Unterschied machen.',
