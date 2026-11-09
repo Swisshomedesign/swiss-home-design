@@ -11,16 +11,16 @@ import LegalPage from './pages/LegalPage'
 
 const origin='https://www.swisshomedesign.ch'
 const seoPages={
- '/fr':['Swiss Home Design Sàrl | Construction à Neuchâtel','Découvrez Swiss Home Design Sàrl à Marin-Epagnier : conception, construction et projets de maisons dans la région de Neuchâtel.','/de'],
- '/de':['Swiss Home Design Sàrl | Hausbau in Neuenburg','Swiss Home Design Sàrl in Marin-Epagnier: Einblicke in Planung, Hausbau und laufende Bauprojekte in der Region Neuenburg.','/fr'],
- '/fr/a-propos':['À propos | Swiss Home Design Sàrl','En savoir plus sur Swiss Home Design Sàrl, son approche et son activité dans la région de Neuchâtel.','/de/uber-uns'],
- '/de/uber-uns':['Über uns | Swiss Home Design Sàrl','Erfahren Sie mehr über Swiss Home Design Sàrl und die Arbeitsweise des Unternehmens in der Region Neuenburg.','/fr/a-propos'],
- '/fr/services':['Nos services | Swiss Home Design Sàrl','Découvrez les prestations et l’accompagnement proposés par Swiss Home Design Sàrl pour votre projet de construction.','/de/dienstleistungen'],
- '/de/dienstleistungen':['Leistungen | Swiss Home Design Sàrl','Entdecken Sie die Leistungen und die Projektbegleitung von Swiss Home Design Sàrl rund um das Bauen.','/fr/services'],
+ '/fr':['Swiss Home Design Sàrl | Construction de maisons Neuchâtel & Berne','Swiss Home Design Sàrl à Marin-Epagnier : conception, planification et construction de maisons dans les cantons de Neuchâtel et de Berne.','/de'],
+ '/de':['Swiss Home Design Sàrl | Hausbau Neuenburg & Bern','Swiss Home Design Sàrl in Marin-Epagnier: individuelle Hausplanung, Neubau und Hausbau in den Kantonen Neuenburg und Bern.','/fr'],
+ '/fr/a-propos':['À propos | Swiss Home Design Sàrl','En savoir plus sur Swiss Home Design Sàrl, son approche et son activité dans les cantons de Neuchâtel et de Berne.','/de/uber-uns'],
+ '/de/uber-uns':['Über uns | Swiss Home Design Sàrl','Erfahren Sie mehr über Swiss Home Design Sàrl und die Arbeitsweise des Unternehmens in den Kantonen Neuenburg und Bern.','/fr/a-propos'],
+ '/fr/services':['Construction et conception de maisons | Swiss Home Design','Découvrez les prestations de conception, planification et construction de maisons de Swiss Home Design Sàrl à Neuchâtel et Berne.','/de/dienstleistungen'],
+ '/de/dienstleistungen':['Hausbau & Hausplanung | Swiss Home Design Sàrl','Entdecken Sie Hausplanung, Neubau und Hausbau von Swiss Home Design Sàrl in Neuenburg und Bern.','/fr/services'],
  '/fr/realisations':['Chantiers en cours | Swiss Home Design Sàrl','Découvrez en images les travaux en cours et les différentes étapes de chantier de Swiss Home Design Sàrl.','/de/projekte'],
  '/de/projekte':['Laufende Bauprojekte | Swiss Home Design Sàrl','Entdecken Sie echte Baustellenbilder und Einblicke in die laufenden Bauarbeiten von Swiss Home Design Sàrl.','/fr/realisations'],
- '/fr/contact':['Contact | Swiss Home Design Sàrl','Contactez Swiss Home Design Sàrl à Marin-Epagnier et envoyez votre demande de projet directement en ligne.','/de/kontakt'],
- '/de/kontakt':['Kontakt | Swiss Home Design Sàrl','Kontaktieren Sie Swiss Home Design Sàrl in Marin-Epagnier und senden Sie Ihre Projektanfrage über das Kontaktformular.','/fr/contact'],
+ '/fr/contact':['Contact | Swiss Home Design Sàrl','Contactez Swiss Home Design Sàrl à Marin-Epagnier pour votre projet de maison à Neuchâtel ou Berne.','/de/kontakt'],
+ '/de/kontakt':['Kontakt | Swiss Home Design Sàrl','Kontaktieren Sie Swiss Home Design Sàrl für Ihr Hausbauprojekt in Neuenburg oder Bern.','/fr/contact'],
  '/fr/mentions-legales':['Mentions légales | Swiss Home Design Sàrl','Informations légales et coordonnées de Swiss Home Design Sàrl.','/de/impressum'],
  '/de/impressum':['Impressum | Swiss Home Design Sàrl','Rechtliche Informationen und Kontaktdaten von Swiss Home Design Sàrl.','/fr/mentions-legales']
 }
