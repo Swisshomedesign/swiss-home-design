@@ -6,7 +6,7 @@ export default function ContactPage({lang='fr'}) {
  const [sending,setSending]=useState(false)
  const [feedback,setFeedback]=useState('')
  const update=(key,value)=>setForm(prev=>({...prev,[key]:value}))
- const types=de?['Neubau','Renovation / Umbau','Planung / Beratung','Andere Anfrage']:['Nouvelle construction','Rénovation / transformation','Conception / conseil','Autre demande']
+ const types=de?['Neubau','Hausplanung / Beratung','Projektbegleitung','Andere Anfrage']:['Nouvelle construction','Conception / conseil','Accompagnement de projet','Autre demande']
  async function submit(e){
   e.preventDefault()
   if(!consent || sending)return
@@ -23,7 +23,7 @@ export default function ContactPage({lang='fr'}) {
   finally{setSending(false)}
  }
  return <div className="shd-inner shd-contact-page">
-  <section className="shd-page-hero"><span className="shd-eyebrow">{de?'KONTAKT':'CONTACT'}</span><h1>{de?'Ihre Idee. Unser Gespräch.':'Votre projet commence ici.'}</h1><p>{de?'Ein Neubau, ein Umbau oder eine erste Idee? Erzählen Sie uns davon.':'Une construction, une rénovation ou une première idée ? Parlons-en.'}</p></section>
+  <section className="shd-page-hero"><span className="shd-eyebrow">{de?'KONTAKT':'CONTACT'}</span><h1>{de?'Ihre Idee. Unser Gespräch.':'Votre projet commence ici.'}</h1><p>{de?'Ein Neubau, eine Hausplanung oder eine erste Idee? Erzählen Sie uns davon.':'Une nouvelle maison, un projet de conception ou une première idée ? Parlons-en.'}</p></section>
   <section className="shd-contact-layout shd-contact-layout-form">
    <div className="shd-contact-info">
     <span className="shd-eyebrow">{de?'WIR SIND FÜR SIE DA':'RESTONS EN CONTACT'}</span>
