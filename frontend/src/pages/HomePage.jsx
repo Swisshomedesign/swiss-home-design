@@ -10,7 +10,7 @@ const content = {
     aboutLabel: 'NOTRE PHILOSOPHIE', aboutTitle: 'Un lieu à votre image.',
     about: 'Chaque projet commence par une idée et une conversation. Nous croyons aux espaces lumineux, aux lignes épurées et aux détails qui font toute la différence.',
     serviceLabel: 'CE QUE NOUS FAISONS', serviceTitle: 'Des idées aux espaces.',
-    cards: [['01','Conception','Imaginer des espaces harmonieux, adaptés à vos envies.'],['02','Construction','Donner forme à un projet avec précision et attention.'],['03','Rénovation','Réinventer des lieux et révéler leur potentiel.']],
+    cards: [['01','Conception','Imaginer des espaces harmonieux, adaptés à vos envies.'],['02','Construction','Donner forme à un projet avec précision et attention.'],['03','Accompagnement','Faire avancer votre projet de maison étape par étape.']],
     visionLabel: 'PRENONS CONTACT', visionTitle: 'Votre prochain chapitre commence ici.',
     visionText: 'Vous avez un projet en tête ? Échangeons sur vos idées.', visionAction: 'Nous contacter',
     disclaimer: 'Visuels d’ambiance — non représentatifs de réalisations de l’entreprise.'
@@ -23,7 +23,7 @@ const content = {
     aboutLabel: 'UNSERE PHILOSOPHIE', aboutTitle: 'Ein Ort, der zu Ihnen passt.',
     about: 'Jedes Projekt beginnt mit einer Idee und einem Gespräch. Wir glauben an lichtdurchflutete Räume, klare Linien und Details, die den Unterschied machen.',
     serviceLabel: 'UNSERE TÄTIGKEITEN', serviceTitle: 'Von der Idee zum Raum.',
-    cards: [['01','Konzeption','Harmonische Räume nach Ihren Vorstellungen gestalten.'],['02','Bauen','Projekte mit Präzision und Sorgfalt umsetzen.'],['03','Renovation','Bestehende Räume neu denken und Potenzial entfalten.']],
+    cards: [['01','Konzeption','Harmonische Räume nach Ihren Vorstellungen gestalten.'],['02','Bauen','Projekte mit Präzision und Sorgfalt umsetzen.'],['03','Projektbegleitung','Ihr Hausbauprojekt Schritt für Schritt weiterentwickeln.']],
     visionLabel: 'KONTAKT', visionTitle: 'Ihr nächstes Kapitel beginnt hier.',
     visionText: 'Sie haben ein Projekt im Kopf? Erzählen Sie uns davon.', visionAction: 'Kontakt aufnehmen',
     disclaimer: 'Symbolbilder — keine Referenzprojekte des Unternehmens.'
